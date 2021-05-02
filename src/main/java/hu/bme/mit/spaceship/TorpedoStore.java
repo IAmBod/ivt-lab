@@ -45,7 +45,6 @@ public class TorpedoStore {
       this.torpedoCount -= numberOfTorpedos;
       success = true;
     }
-
     return success;
   }
 
