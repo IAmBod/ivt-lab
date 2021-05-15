@@ -136,4 +136,10 @@ public class GT4500Test {
         // Assert
         assertFalse(result);
     }
+
+    @Test
+    public void fireLaser_Success() {
+        boolean result = ship.fireLaser(FiringMode.ALL);
+        assertFalse(result);
+    }
 }
